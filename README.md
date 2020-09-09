@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ### Data
 
-All of the data need to train a neural network is in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
+All of the data need to train a neural network is in [udacity repo](https://github.com/udacity/P1_Facial_Keypoints), in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
 
 
 ## Notebooks
