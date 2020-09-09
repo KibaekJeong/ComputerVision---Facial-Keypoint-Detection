@@ -6,11 +6,11 @@
 
 ## Project Overview
 
-In this project, you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
+In this project, objective is to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
 
 ![Facial Keypoint Detection][image1]
 
-The project will be broken up into a few main parts in four Python notebooks, **only Notebooks 2 and 3 (and the `models.py` file) will be graded**:
+The project will be broken up into a few main parts in four Python notebooks:
 
 __Notebook 1__ : Loading and Visualizing the Facial Keypoint Data
 
@@ -19,14 +19,6 @@ __Notebook 2__ : Defining and Training a Convolutional Neural Network (CNN) to P
 __Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained CNN
 
 __Notebook 4__ : Fun Filters and Keypoint Uses
-
-
-
-## Project Instructions
-
-All of the starting code and resources you'll need to compete this project are in this Github repository. Before you can get started coding, you'll have to make sure that you have all the libraries and dependencies required to support this project. If you have already created a `cv-nd` environment for [exercise code](https://github.com/udacity/CVND_Exercises), then you can use that environment! If not, instructions for creation and activation are below.
-
-*Note that this project does not require the use of GPU, so this repo does not include instructions for GPU setup.*
 
 
 ### Local Environment Instructions
@@ -72,7 +64,7 @@ pip install -r requirements.txt
 
 ### Data
 
-All of the data you'll need to train a neural network is in the P1_Facial_Keypoints repo, in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
+All of the data need to train a neural network is in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
 
 
 ## Notebooks
@@ -92,19 +84,6 @@ jupyter notebook
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality and answer all of the questions included in the notebook. __Unless requested, it's suggested that you do not modify code that has already been included.__
 
-
-## Evaluation
-
-Your project will be reviewed against the project [rubric](#rubric).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
-
-
-## Project Submission
-
-When you are ready to submit your project, collect all of your project files -- all executed notebooks, and python files -- and compress them into a single zip archive for upload.
-
-Alternatively, your submission could consist of only the **GitHub link** to your repository with all of the completed files.
-
-<a id='rubric'></a>
 ## Project Rubric
 
 ### `models.py`
